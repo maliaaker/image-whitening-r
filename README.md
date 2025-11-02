@@ -20,17 +20,6 @@ The work was inspired by independent component analysis (ICA) concepts used in p
 4. **Visualization** – Render Fisher index surface using `plotly`.  
 5. **Segmentation** – Cluster whitened pixels into two groups using k-means, producing a binary segmentation map.
 
----
-
-## 📊 Example Outputs
-| Visualization | Description |
-|----------------|-------------|
-| ![Fisher Surface](reports/figures/fisher_surface.png) | Fisher index surface showing discriminant strength across projection angles |
-| ![Segmented Image](reports/figures/segmented_output.png) | Segmented binary image (lesion vs. background) after optimal projection |
-
-*(Note: sample plots can be saved from your script using `ggsave()` or `export(p3d)`.)*
-
----
 
 ## 🧩 How to Run
 ```r
